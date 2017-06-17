@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A1B48DD1EED284100DC2B55 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B48DC1EED284100DC2B55 /* PlaySoundsViewController.swift */; };
+		3A1B48DF1EEDE4DB00DC2B55 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1B48DE1EEDE4DB00DC2B55 /* PlaySoundsViewController+Audio.swift */; };
 		3A9E27C51EEC4A9100A7D828 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E27C41EEC4A9100A7D828 /* AppDelegate.swift */; };
-		3A9E27C71EEC4A9100A7D828 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E27C61EEC4A9100A7D828 /* ViewController.swift */; };
+		3A9E27C71EEC4A9100A7D828 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E27C61EEC4A9100A7D828 /* RecordSoundsViewController.swift */; };
 		3A9E27CA1EEC4A9100A7D828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E27C81EEC4A9100A7D828 /* Main.storyboard */; };
 		3A9E27CD1EEC4A9100A7D828 /* PitchPerfect_Udacity.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A9E27CB1EEC4A9100A7D828 /* PitchPerfect_Udacity.xcdatamodeld */; };
 		3A9E27CF1EEC4A9100A7D828 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9E27CE1EEC4A9100A7D828 /* Assets.xcassets */; };
@@ -35,9 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A1B48DC1EED284100DC2B55 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+		3A1B48DE1EEDE4DB00DC2B55 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		3A9E27C11EEC4A9100A7D828 /* PitchPerfect_Udacity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PitchPerfect_Udacity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9E27C41EEC4A9100A7D828 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3A9E27C61EEC4A9100A7D828 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A9E27C61EEC4A9100A7D828 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		3A9E27C91EEC4A9100A7D828 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A9E27CC1EEC4A9100A7D828 /* PitchPerfect_Udacity.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PitchPerfect_Udacity.xcdatamodel; sourceTree = "<group>"; };
 		3A9E27CE1EEC4A9100A7D828 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,12 +104,14 @@
 			isa = PBXGroup;
 			children = (
 				3A9E27C41EEC4A9100A7D828 /* AppDelegate.swift */,
-				3A9E27C61EEC4A9100A7D828 /* ViewController.swift */,
+				3A9E27C61EEC4A9100A7D828 /* RecordSoundsViewController.swift */,
 				3A9E27C81EEC4A9100A7D828 /* Main.storyboard */,
 				3A9E27CE1EEC4A9100A7D828 /* Assets.xcassets */,
 				3A9E27D01EEC4A9100A7D828 /* LaunchScreen.storyboard */,
 				3A9E27D31EEC4A9100A7D828 /* Info.plist */,
 				3A9E27CB1EEC4A9100A7D828 /* PitchPerfect_Udacity.xcdatamodeld */,
+				3A1B48DC1EED284100DC2B55 /* PlaySoundsViewController.swift */,
+				3A1B48DE1EEDE4DB00DC2B55 /* PlaySoundsViewController+Audio.swift */,
 			);
 			path = PitchPerfect_Udacity;
 			sourceTree = "<group>";
@@ -262,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A9E27C71EEC4A9100A7D828 /* ViewController.swift in Sources */,
+				3A1B48DF1EEDE4DB00DC2B55 /* PlaySoundsViewController+Audio.swift in Sources */,
+				3A9E27C71EEC4A9100A7D828 /* RecordSoundsViewController.swift in Sources */,
 				3A9E27C51EEC4A9100A7D828 /* AppDelegate.swift in Sources */,
+				3A1B48DD1EED284100DC2B55 /* PlaySoundsViewController.swift in Sources */,
 				3A9E27CD1EEC4A9100A7D828 /* PitchPerfect_Udacity.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +517,7 @@
 				3A9E27EE1EEC4A9100A7D828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A9E27EF1EEC4A9100A7D828 /* Build configuration list for PBXNativeTarget "PitchPerfect_UdacityTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +526,7 @@
 				3A9E27F11EEC4A9100A7D828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3A9E27F21EEC4A9100A7D828 /* Build configuration list for PBXNativeTarget "PitchPerfect_UdacityUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +535,7 @@
 				3A9E27F41EEC4A9100A7D828 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
